@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block main %}
+ <header>
+    <!-- -->
+    <img src="{{ url_for('static', filename= 'HakYona.jpg') }}" />
+    <link rel="stylesheet" href="/static/css/styles.css" /> 
+     <h1>Kharma-Nailah Johnson</h1>
+     <p>@Kharma</p>
+     <p>Clarendon, Jamaica</p>
+     <p>Joined {{value}}</p>
+ </header>
+
+ <div id='bio'> 
+ <p> 
+    I am a final year Computer Science student with an interest in education and language. 
+    I intend all the objectives I have laid out for myself. I find this aspect of computing very enjoyable unlike the others. 
+    I am the eldest granddaughter to my maternal grandparents. 
+    I chose to do computer Science because I liked studying IT and tutoring the subject at High school.
+</p>
+ </div>
+
+ <div class='detes'>
+
+ <div id='row'>
+
+ <div class='detes'>
+ <p class='num'>0</p>
+ <p>Posts</p>
+</div>
+ 
+ <div class='detes'>
+ <p class='num'>50</p>
+ <p>Following</p>
+</div>
+ 
+ <div class='detes'>
+ <p class='num'>100</p>
+ <p>Followers</p>
+</div>
+
+ </div>
+
+
+ <button>Follow</button>
+</div>
+
+
+{% endblock %}
